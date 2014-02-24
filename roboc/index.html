@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Robocs!</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../css/reveal.min.css">
+		<link rel="stylesheet" href="../css/theme/default.css" id="theme">
+
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+
+		<script>
+			document.write( '<link rel="stylesheet" href="../css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+	</head>
+
+	<body>
+
+	  <div class="reveal">
+
+        <div class="slides">
+
+          <section>
+            <h2>¿Porqué hablamos de robótica?</h2>
+          </section>
+
+          <section>
+            <h1>PETER NORVIG</h1>
+          </section>
+
+          <section>
+            <img src="assets/plano.svg" />
+          </section>
+
+          <section>
+            <p>[video tareas dificiles]</p>
+          </section>
+
+          <section>
+            <h2>Paradoja de</h2>
+            <h1>MORAVEC</h1>
+          </section>
+
+          <section>
+            <img src="assets/probabilistic-robotics.jpg" />
+          </section>
+
+          <section>
+            <section>
+              <h1>UNCANNY VALLEY</h1>
+            </section>
+            <section>
+              <p>[robot feo]</p>
+            </section>
+            <section>
+              <p>[robot mas feo]</p>
+            </section>
+            <section>
+              <p>[robot MUY feo]</p>
+            </section>
+          </section>
+
+          <section>
+            <h1>Gracias!</h1>
+            <video controls src="assets/nao.dance.mp4" type="video/mp4"></video>
+          </section>
+        </div>
+
+
+      </div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
